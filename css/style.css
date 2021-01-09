@@ -9,24 +9,24 @@ html, body {
 
 /*============= NAVIGATION =============*/
 .navbar-brand img{
-  height: 3.0rem ;
+  height: 3.5rem ;
 }
 .navbar{
-  background: linear-gradient(to right, #e7ece7, #9bec9f);
-  font-size: 0.8rem;
+  background: linear-gradient(to right, #a6f393, #0995f3);
+  font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
   box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
 }
 .nav-item{
-  padding: .4rem;
+  padding: 0.7rem;
 }
 .nav-link{
   color:black!important;
 }
 .nav-link.active,
 .nav-link:hover{
-  color: rgb(215, 100, 219)!important;
+  color: rgb(233, 0, 0)!important;
 }
 
 
@@ -42,7 +42,7 @@ html, body {
 }
 
 .bg-white{
-  background-color: rgba(255, 255, 255, 0.65)!important ;
+  background-color: rgba(255, 255, 255, 0.70)!important ;
   border-radius:1.5rem;
   padding:1rem;
 }
@@ -71,7 +71,7 @@ html, body {
   font-weight: 300;
 }
 p.lead{
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 /*============= SOCIAL MEDIA STICKY BAR =============*/
 
@@ -116,7 +116,7 @@ ul.social li{
   
 }
 .fixed {
-  background-image: url('../img/imac.jpg');
+  background-image: url('../img/happiness.jpg');
   position: fixed;
 }
 
