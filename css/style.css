@@ -123,10 +123,34 @@ ul.social li{
 
 /*============= FOOTER =============*/
 
+footer{
+  background: linear-gradient(to left, #353535, #353535);
+  
+  padding:1rem 2rem 3rem;
+}
+footer img{
+  height: 8rem;
+  margin: 1.5rem auto;
+}
 
+footer a,
+.socket a{
+  color: #ebebeb;
+  text-decoration: none;
+}
+
+footer a:hover,
+.socket a:hover{
+  color: #eeebeb;
+  text-decoration: none;
+}
 
 /*============= SOCKET =============*/
 
+.socket{
+  border-top: 0.2rem solid rgb(255, 255, 255);
+  background-color: #242424;
+  }
 
 
 /*============= MEDIA QUERIES =============*/
