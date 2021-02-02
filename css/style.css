@@ -115,12 +115,14 @@ ul.social li{
   border-top: .05rem solid black;
   border-bottom: .05rem solid black;
   margin-bottom: 2px;
+  pointer-events:none;
   
   
 }
 .fixed {
-  background-image: url('../img/happiness.jpg');
+  background-image: url('../img/certificate.jpg');
   position: fixed;
+  pointer-events:none;
 }
 
 .fixed-background1 {
@@ -128,12 +130,14 @@ ul.social li{
   border-top: .05rem solid black;
   border-bottom: .05rem solid black;
   margin-bottom: 2px;
+  pointer-events:none;
   
   
 }
 .fixed1 {
   background-image: url('../img/fullPage.jpg');
   position: fixed;
+  pointer-events:none;
 }
 
 .fixed-background2 {
@@ -141,12 +145,14 @@ ul.social li{
   border-top: .05rem solid black;
   border-bottom: .05rem solid black;
   margin-bottom: 2px;
+  pointer-events:none;
   
   
 }
 .fixed2 {
   background-image: url('../img/steam.jpg');
   position: fixed;
+  pointer-events:none;
 }
 
 
