@@ -29,7 +29,7 @@
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarResponsive">
+				<div class="collapse navbar-collapse" data-toggle="collapse"  data-target=".navbar-collapse" id="navbarResponsive">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item"><a class="nav-link active" href="#sec-1">Home</a></li>
 						<li class="nav-item"><a href="#sec-2" class="nav-link">About</a></li>
@@ -535,6 +535,7 @@
 				// increase value up to 10, then refresh AOS
 				scrollRef <= 10 ? scrollRef++ : AOS.refresh();
 			});
+			
 		</script>
 	</div>
 	</div>
